@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
+import { AddItem } from './src/components/otro/addItem';
 import Receta from './src/components/receta/receta';
 
 export default function App() {
@@ -8,7 +9,8 @@ export default function App() {
     <View style={styles.container}>
     <View>
       <StatusBar style="auto" />
-      <Receta />
+      {/* <Receta /> */}
+      <AddItem />
     </View>
     </View>
   );
